@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+}
+
+body{
+    background-image: url(./bg.png);
+    background-size: 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+div{
+    display: block;
+}
+
+.logo{
+    position: absolute;
+    left: 10%;
+    top: 50px;
+}
+
+.logo span{
+    position: absolute;
+    line-height: 38px;
+    color: #fff;
+    font-size: 24px;
+    width: 150px;
+    top: 15px;
+    margin-left:25px ;
+    padding-left:25px ;
+    border-left:1px solid #fff ;
+}
+
+.changeLanguage{
+    position: absolute;
+    /* width: 100px;
+    height: 30px; */
+    top: 50px;
+    right: 10%;
+    text-align: left;
+    font-size: 14px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+#language{
+    padding: 5px 14px;
+    border-radius: 5px;
+
+}
+
+.logging{
+    position: absolute;
+    right: 0;
+    width: 600px;
+    height: 100%;
+    background-color: rgba(42, 41, 41, 0.3);
+
+}
+
+.log_input_page{
+    position: relative;
+    width: 420px;
+   height: 410px;
+   background-color: #fff;
+   border-radius: 4px;
+   margin: auto;
+   margin-top: 20%;
+   
+}
+
+#ewm{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+
+
+.log_head{
+    position: relative;
+    width: 100%;
+     height: 60px;
+     margin-top: 20px;
+     overflow: hidden;
+ }
+
+.log_head_left{
+    display: block;
+    float: left;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+    line-height: 20px;
+    padding: 8px 0;
+    width: 50%;
+    margin-top: 20px;
+    
+}
+
+.log_head_right{
+    display: block;
+    float: left;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+    line-height: 20px;
+    padding: 8px 0;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.log_pswway{
+    margin-top: 10px;
+}
+
+.log_div{
+    position: relative;
+}
+
+.log_psw_nameicon{
+    position: absolute;
+    top: 4px;
+    left: 2px;
+}
+
+.log_psw_pswicon{
+    position: absolute;
+    top: 4px;
+    left: 2px;
+}
+
+.log_pswway .item{
+    border-radius: 4px ;
+    border: 1px solid grey;
+    height: 40px;
+    width: 70%;
+    margin: 20px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+.log_head_active{
+    border-bottom: 2px solid blue;
+}
+
+.banquan{
+    width: 416px;
+    font-size: 12px;
+    color: #fff;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+
+
